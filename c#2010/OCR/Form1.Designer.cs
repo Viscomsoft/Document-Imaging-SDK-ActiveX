@@ -1,0 +1,665 @@
+namespace WindowsApplication1
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.axImageViewer1 = new AxSCRIBBLELib.AxImageViewer();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnprev = new System.Windows.Forms.Button();
+            this.btnnext = new System.Windows.Forms.Button();
+            this.txtfilename = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txttotpage = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtPageNo = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.optfilter4 = new System.Windows.Forms.RadioButton();
+            this.optfilter3 = new System.Windows.Forms.RadioButton();
+            this.optfilter2 = new System.Windows.Forms.RadioButton();
+            this.optfilter1 = new System.Windows.Forms.RadioButton();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.optmode3 = new System.Windows.Forms.RadioButton();
+            this.optmode2 = new System.Windows.Forms.RadioButton();
+            this.optmode1 = new System.Windows.Forms.RadioButton();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.optlang7 = new System.Windows.Forms.RadioButton();
+            this.optlang6 = new System.Windows.Forms.RadioButton();
+            this.optlang5 = new System.Windows.Forms.RadioButton();
+            this.optlang4 = new System.Windows.Forms.RadioButton();
+            this.optlang3 = new System.Windows.Forms.RadioButton();
+            this.optlang2 = new System.Windows.Forms.RadioButton();
+            this.optlang1 = new System.Windows.Forms.RadioButton();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtfileheight = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtfilewidth = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txttop = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtleft = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.chkfullpage = new System.Windows.Forms.CheckBox();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.optoutput2 = new System.Windows.Forms.RadioButton();
+            this.optoutput1 = new System.Windows.Forms.RadioButton();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txttotalchar = new System.Windows.Forms.TextBox();
+            this.btnscan = new System.Windows.Forms.Button();
+            this.btnstop = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.chkuseadvpdf = new System.Windows.Forms.CheckBox();
+            ((System.ComponentModel.ISupportInitialize)(this.axImageViewer1)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // axImageViewer1
+            // 
+            this.axImageViewer1.Enabled = true;
+            this.axImageViewer1.Location = new System.Drawing.Point(12, 12);
+            this.axImageViewer1.Name = "axImageViewer1";
+            this.axImageViewer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axImageViewer1.OcxState")));
+            this.axImageViewer1.Size = new System.Drawing.Size(456, 451);
+            this.axImageViewer1.TabIndex = 0;
+            this.axImageViewer1.SelectionRectDrawn += new AxSCRIBBLELib._DImageViewerEvents_SelectionRectDrawnEventHandler(this.axImageViewer1_SelectionRectDrawn);
+            this.axImageViewer1.OCRRecognized += new AxSCRIBBLELib._DImageViewerEvents_OCRRecognizedEventHandler(this.axImageViewer1_OCRRecognized);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(474, 39);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(105, 35);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Select Image";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnprev
+            // 
+            this.btnprev.Location = new System.Drawing.Point(594, 44);
+            this.btnprev.Name = "btnprev";
+            this.btnprev.Size = new System.Drawing.Size(65, 25);
+            this.btnprev.TabIndex = 2;
+            this.btnprev.Text = "<<";
+            this.btnprev.UseVisualStyleBackColor = true;
+            this.btnprev.Click += new System.EventHandler(this.btnprev_Click);
+            // 
+            // btnnext
+            // 
+            this.btnnext.Location = new System.Drawing.Point(665, 44);
+            this.btnnext.Name = "btnnext";
+            this.btnnext.Size = new System.Drawing.Size(65, 25);
+            this.btnnext.TabIndex = 3;
+            this.btnnext.Text = ">>";
+            this.btnnext.UseVisualStyleBackColor = true;
+            this.btnnext.Click += new System.EventHandler(this.btnnext_Click);
+            // 
+            // txtfilename
+            // 
+            this.txtfilename.Enabled = false;
+            this.txtfilename.Location = new System.Drawing.Point(477, 89);
+            this.txtfilename.Name = "txtfilename";
+            this.txtfilename.Size = new System.Drawing.Size(326, 20);
+            this.txtfilename.TabIndex = 4;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(478, 125);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(59, 13);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Total Page";
+            // 
+            // txttotpage
+            // 
+            this.txttotpage.Location = new System.Drawing.Point(554, 123);
+            this.txttotpage.Name = "txttotpage";
+            this.txttotpage.Size = new System.Drawing.Size(40, 20);
+            this.txttotpage.TabIndex = 6;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(618, 126);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(52, 13);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Page No.";
+            // 
+            // txtPageNo
+            // 
+            this.txtPageNo.Location = new System.Drawing.Point(676, 123);
+            this.txtPageNo.Name = "txtPageNo";
+            this.txtPageNo.Size = new System.Drawing.Size(40, 20);
+            this.txtPageNo.TabIndex = 8;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.optfilter4);
+            this.groupBox1.Controls.Add(this.optfilter3);
+            this.groupBox1.Controls.Add(this.optfilter2);
+            this.groupBox1.Controls.Add(this.optfilter1);
+            this.groupBox1.Location = new System.Drawing.Point(481, 263);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(208, 117);
+            this.groupBox1.TabIndex = 9;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Character Filter";
+            // 
+            // optfilter4
+            // 
+            this.optfilter4.AutoSize = true;
+            this.optfilter4.Location = new System.Drawing.Point(9, 88);
+            this.optfilter4.Name = "optfilter4";
+            this.optfilter4.Size = new System.Drawing.Size(149, 17);
+            this.optfilter4.TabIndex = 3;
+            this.optfilter4.Text = "Recognize lowercase only";
+            this.optfilter4.UseVisualStyleBackColor = true;
+            // 
+            // optfilter3
+            // 
+            this.optfilter3.AutoSize = true;
+            this.optfilter3.Location = new System.Drawing.Point(9, 65);
+            this.optfilter3.Name = "optfilter3";
+            this.optfilter3.Size = new System.Drawing.Size(151, 17);
+            this.optfilter3.TabIndex = 2;
+            this.optfilter3.Text = "Recognize uppercase only";
+            this.optfilter3.UseVisualStyleBackColor = true;
+            // 
+            // optfilter2
+            // 
+            this.optfilter2.AutoSize = true;
+            this.optfilter2.Location = new System.Drawing.Point(9, 42);
+            this.optfilter2.Name = "optfilter2";
+            this.optfilter2.Size = new System.Drawing.Size(138, 17);
+            this.optfilter2.TabIndex = 1;
+            this.optfilter2.Text = "Recognize numeric only";
+            this.optfilter2.UseVisualStyleBackColor = true;
+            // 
+            // optfilter1
+            // 
+            this.optfilter1.AutoSize = true;
+            this.optfilter1.Checked = true;
+            this.optfilter1.Location = new System.Drawing.Point(9, 19);
+            this.optfilter1.Name = "optfilter1";
+            this.optfilter1.Size = new System.Drawing.Size(64, 17);
+            this.optfilter1.TabIndex = 0;
+            this.optfilter1.TabStop = true;
+            this.optfilter1.Text = "No Filter";
+            this.optfilter1.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.optmode3);
+            this.groupBox2.Controls.Add(this.optmode2);
+            this.groupBox2.Controls.Add(this.optmode1);
+            this.groupBox2.Location = new System.Drawing.Point(481, 159);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(208, 98);
+            this.groupBox2.TabIndex = 10;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Recognize Mode";
+            // 
+            // optmode3
+            // 
+            this.optmode3.AutoSize = true;
+            this.optmode3.Location = new System.Drawing.Point(13, 68);
+            this.optmode3.Name = "optmode3";
+            this.optmode3.Size = new System.Drawing.Size(68, 17);
+            this.optmode3.TabIndex = 2;
+            this.optmode3.Text = "Excellent";
+            this.optmode3.UseVisualStyleBackColor = true;
+            // 
+            // optmode2
+            // 
+            this.optmode2.AutoSize = true;
+            this.optmode2.Checked = true;
+            this.optmode2.Location = new System.Drawing.Point(13, 45);
+            this.optmode2.Name = "optmode2";
+            this.optmode2.Size = new System.Drawing.Size(58, 17);
+            this.optmode2.TabIndex = 1;
+            this.optmode2.TabStop = true;
+            this.optmode2.Text = "Normal";
+            this.optmode2.UseVisualStyleBackColor = true;
+            // 
+            // optmode1
+            // 
+            this.optmode1.AutoSize = true;
+            this.optmode1.Location = new System.Drawing.Point(13, 22);
+            this.optmode1.Name = "optmode1";
+            this.optmode1.Size = new System.Drawing.Size(45, 17);
+            this.optmode1.TabIndex = 0;
+            this.optmode1.Text = "Fast";
+            this.optmode1.UseVisualStyleBackColor = true;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.optlang7);
+            this.groupBox3.Controls.Add(this.optlang6);
+            this.groupBox3.Controls.Add(this.optlang5);
+            this.groupBox3.Controls.Add(this.optlang4);
+            this.groupBox3.Controls.Add(this.optlang3);
+            this.groupBox3.Controls.Add(this.optlang2);
+            this.groupBox3.Controls.Add(this.optlang1);
+            this.groupBox3.Location = new System.Drawing.Point(483, 390);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(320, 126);
+            this.groupBox3.TabIndex = 11;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Language";
+            // 
+            // optlang7
+            // 
+            this.optlang7.AutoSize = true;
+            this.optlang7.Location = new System.Drawing.Point(111, 78);
+            this.optlang7.Name = "optlang7";
+            this.optlang7.Size = new System.Drawing.Size(63, 17);
+            this.optlang7.TabIndex = 6;
+            this.optlang7.Text = "Spanish";
+            this.optlang7.UseVisualStyleBackColor = true;
+            // 
+            // optlang6
+            // 
+            this.optlang6.AutoSize = true;
+            this.optlang6.Location = new System.Drawing.Point(111, 51);
+            this.optlang6.Name = "optlang6";
+            this.optlang6.Size = new System.Drawing.Size(79, 17);
+            this.optlang6.TabIndex = 5;
+            this.optlang6.Text = "Portuguese";
+            this.optlang6.UseVisualStyleBackColor = true;
+            // 
+            // optlang5
+            // 
+            this.optlang5.AutoSize = true;
+            this.optlang5.Location = new System.Drawing.Point(111, 28);
+            this.optlang5.Name = "optlang5";
+            this.optlang5.Size = new System.Drawing.Size(54, 17);
+            this.optlang5.TabIndex = 4;
+            this.optlang5.Text = "Dutch";
+            this.optlang5.UseVisualStyleBackColor = true;
+            // 
+            // optlang4
+            // 
+            this.optlang4.AutoSize = true;
+            this.optlang4.Location = new System.Drawing.Point(11, 98);
+            this.optlang4.Name = "optlang4";
+            this.optlang4.Size = new System.Drawing.Size(53, 17);
+            this.optlang4.TabIndex = 3;
+            this.optlang4.Text = "Italian";
+            this.optlang4.UseVisualStyleBackColor = true;
+            // 
+            // optlang3
+            // 
+            this.optlang3.AutoSize = true;
+            this.optlang3.Location = new System.Drawing.Point(11, 75);
+            this.optlang3.Name = "optlang3";
+            this.optlang3.Size = new System.Drawing.Size(58, 17);
+            this.optlang3.TabIndex = 2;
+            this.optlang3.Text = "Fraktur";
+            this.optlang3.UseVisualStyleBackColor = true;
+            // 
+            // optlang2
+            // 
+            this.optlang2.AutoSize = true;
+            this.optlang2.Location = new System.Drawing.Point(10, 51);
+            this.optlang2.Name = "optlang2";
+            this.optlang2.Size = new System.Drawing.Size(62, 17);
+            this.optlang2.TabIndex = 1;
+            this.optlang2.Text = "German";
+            this.optlang2.UseVisualStyleBackColor = true;
+            // 
+            // optlang1
+            // 
+            this.optlang1.AutoSize = true;
+            this.optlang1.Checked = true;
+            this.optlang1.Location = new System.Drawing.Point(10, 28);
+            this.optlang1.Name = "optlang1";
+            this.optlang1.Size = new System.Drawing.Size(59, 17);
+            this.optlang1.TabIndex = 0;
+            this.optlang1.TabStop = true;
+            this.optlang1.Text = "English";
+            this.optlang1.UseVisualStyleBackColor = true;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.label8);
+            this.groupBox4.Controls.Add(this.label9);
+            this.groupBox4.Controls.Add(this.label7);
+            this.groupBox4.Controls.Add(this.txtfileheight);
+            this.groupBox4.Controls.Add(this.label6);
+            this.groupBox4.Controls.Add(this.txtfilewidth);
+            this.groupBox4.Controls.Add(this.label5);
+            this.groupBox4.Controls.Add(this.txttop);
+            this.groupBox4.Controls.Add(this.label4);
+            this.groupBox4.Controls.Add(this.txtleft);
+            this.groupBox4.Controls.Add(this.label3);
+            this.groupBox4.Controls.Add(this.chkfullpage);
+            this.groupBox4.Location = new System.Drawing.Point(483, 522);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(316, 122);
+            this.groupBox4.TabIndex = 12;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Zone";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.Color.Red;
+            this.label8.Location = new System.Drawing.Point(14, 94);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(147, 13);
+            this.label8.TabIndex = 11;
+            this.label8.Text = "click Start Regcognize button";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.ForeColor = System.Drawing.Color.Red;
+            this.label9.Location = new System.Drawing.Point(14, 73);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(254, 13);
+            this.label9.TabIndex = 10;
+            this.label9.Text = "You may draw the selection rectangle on image and ";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.Color.Red;
+            this.label7.Location = new System.Drawing.Point(86, 21);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(230, 13);
+            this.label7.TabIndex = 9;
+            this.label7.Text = "uncheck this button recognize for specific zone";
+            // 
+            // txtfileheight
+            // 
+            this.txtfileheight.Location = new System.Drawing.Point(271, 50);
+            this.txtfileheight.Name = "txtfileheight";
+            this.txtfileheight.Size = new System.Drawing.Size(39, 20);
+            this.txtfileheight.TabIndex = 8;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(236, 53);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(38, 13);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "Height";
+            // 
+            // txtfilewidth
+            // 
+            this.txtfilewidth.Location = new System.Drawing.Point(191, 50);
+            this.txtfilewidth.Name = "txtfilewidth";
+            this.txtfilewidth.Size = new System.Drawing.Size(39, 20);
+            this.txtfilewidth.TabIndex = 6;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(161, 53);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "Width";
+            // 
+            // txttop
+            // 
+            this.txttop.Location = new System.Drawing.Point(116, 50);
+            this.txttop.Name = "txttop";
+            this.txttop.Size = new System.Drawing.Size(39, 20);
+            this.txttop.TabIndex = 4;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(84, 53);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(26, 13);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Top";
+            // 
+            // txtleft
+            // 
+            this.txtleft.Location = new System.Drawing.Point(39, 50);
+            this.txtleft.Name = "txtleft";
+            this.txtleft.Size = new System.Drawing.Size(39, 20);
+            this.txtleft.TabIndex = 2;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 53);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(25, 13);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Left";
+            // 
+            // chkfullpage
+            // 
+            this.chkfullpage.AutoSize = true;
+            this.chkfullpage.Checked = true;
+            this.chkfullpage.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkfullpage.Location = new System.Drawing.Point(12, 18);
+            this.chkfullpage.Name = "chkfullpage";
+            this.chkfullpage.Size = new System.Drawing.Size(70, 17);
+            this.chkfullpage.TabIndex = 0;
+            this.chkfullpage.Text = "Full Page";
+            this.chkfullpage.UseVisualStyleBackColor = true;
+            this.chkfullpage.CheckedChanged += new System.EventHandler(this.chkfullpage_CheckedChanged);
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.optoutput2);
+            this.groupBox5.Controls.Add(this.optoutput1);
+            this.groupBox5.Location = new System.Drawing.Point(484, 654);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(318, 92);
+            this.groupBox5.TabIndex = 13;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Output";
+            // 
+            // optoutput2
+            // 
+            this.optoutput2.AutoSize = true;
+            this.optoutput2.Location = new System.Drawing.Point(16, 61);
+            this.optoutput2.Name = "optoutput2";
+            this.optoutput2.Size = new System.Drawing.Size(191, 17);
+            this.optoutput2.TabIndex = 1;
+            this.optoutput2.Text = "Write the recognized text to text file";
+            this.optoutput2.UseVisualStyleBackColor = true;
+            // 
+            // optoutput1
+            // 
+            this.optoutput1.AutoSize = true;
+            this.optoutput1.Checked = true;
+            this.optoutput1.Location = new System.Drawing.Point(15, 25);
+            this.optoutput1.Name = "optoutput1";
+            this.optoutput1.Size = new System.Drawing.Size(152, 17);
+            this.optoutput1.TabIndex = 0;
+            this.optoutput1.TabStop = true;
+            this.optoutput1.Text = "Display the recognized text";
+            this.optoutput1.UseVisualStyleBackColor = true;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(15, 484);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(140, 13);
+            this.label10.TabIndex = 14;
+            this.label10.Text = "Total Recognized Character";
+            // 
+            // txttotalchar
+            // 
+            this.txttotalchar.Location = new System.Drawing.Point(178, 482);
+            this.txttotalchar.Name = "txttotalchar";
+            this.txttotalchar.Size = new System.Drawing.Size(76, 20);
+            this.txttotalchar.TabIndex = 15;
+            this.txttotalchar.Text = "0";
+            // 
+            // btnscan
+            // 
+            this.btnscan.Location = new System.Drawing.Point(34, 562);
+            this.btnscan.Name = "btnscan";
+            this.btnscan.Size = new System.Drawing.Size(160, 70);
+            this.btnscan.TabIndex = 16;
+            this.btnscan.Text = "Start Recognize";
+            this.btnscan.UseVisualStyleBackColor = true;
+            this.btnscan.Click += new System.EventHandler(this.btnscan_Click);
+            // 
+            // btnstop
+            // 
+            this.btnstop.Location = new System.Drawing.Point(212, 562);
+            this.btnstop.Name = "btnstop";
+            this.btnstop.Size = new System.Drawing.Size(160, 70);
+            this.btnstop.TabIndex = 17;
+            this.btnstop.Text = "Stop";
+            this.btnstop.UseVisualStyleBackColor = true;
+            this.btnstop.Click += new System.EventHandler(this.btnstop_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // chkuseadvpdf
+            // 
+            this.chkuseadvpdf.AutoSize = true;
+            this.chkuseadvpdf.Location = new System.Drawing.Point(478, 6);
+            this.chkuseadvpdf.Name = "chkuseadvpdf";
+            this.chkuseadvpdf.Size = new System.Drawing.Size(156, 17);
+            this.chkuseadvpdf.TabIndex = 18;
+            this.chkuseadvpdf.Text = "Use Advanced PDF Viewer";
+            this.chkuseadvpdf.UseVisualStyleBackColor = true;
+            this.chkuseadvpdf.CheckedChanged += new System.EventHandler(this.chkuseadvpdf_CheckedChanged);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(815, 774);
+            this.Controls.Add(this.chkuseadvpdf);
+            this.Controls.Add(this.btnstop);
+            this.Controls.Add(this.btnscan);
+            this.Controls.Add(this.txttotalchar);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.groupBox5);
+            this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.txtPageNo);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txttotpage);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtfilename);
+            this.Controls.Add(this.btnnext);
+            this.Controls.Add(this.btnprev);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.axImageViewer1);
+            this.Name = "Form1";
+            this.Text = "OCR to text";
+            ((System.ComponentModel.ISupportInitialize)(this.axImageViewer1)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private AxSCRIBBLELib.AxImageViewer axImageViewer1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnprev;
+        private System.Windows.Forms.Button btnnext;
+        private System.Windows.Forms.TextBox txtfilename;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txttotpage;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtPageNo;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.RadioButton optfilter2;
+        private System.Windows.Forms.RadioButton optfilter1;
+        private System.Windows.Forms.RadioButton optfilter4;
+        private System.Windows.Forms.RadioButton optfilter3;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.RadioButton optmode3;
+        private System.Windows.Forms.RadioButton optmode2;
+        private System.Windows.Forms.RadioButton optmode1;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.RadioButton optlang1;
+        private System.Windows.Forms.RadioButton optlang7;
+        private System.Windows.Forms.RadioButton optlang6;
+        private System.Windows.Forms.RadioButton optlang5;
+        private System.Windows.Forms.RadioButton optlang4;
+        private System.Windows.Forms.RadioButton optlang3;
+        private System.Windows.Forms.RadioButton optlang2;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txtfileheight;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtfilewidth;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txttop;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtleft;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.CheckBox chkfullpage;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.RadioButton optoutput2;
+        private System.Windows.Forms.RadioButton optoutput1;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox txttotalchar;
+        private System.Windows.Forms.Button btnscan;
+        private System.Windows.Forms.Button btnstop;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.CheckBox chkuseadvpdf;
+    }
+}
+
