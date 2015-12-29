@@ -1,0 +1,2 @@
+SET DEFAULT TO ADDBS(JUSTPATH(SYS(16))) 
+do form form1
