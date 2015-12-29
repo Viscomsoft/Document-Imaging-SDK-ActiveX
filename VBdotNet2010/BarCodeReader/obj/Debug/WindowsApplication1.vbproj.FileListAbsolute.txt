@@ -1,0 +1,3 @@
+C:\Program Files (x86)\Image Viewer CP Pro ActiveX Control\Examples\VBdotNet2010\BarCodeReader\obj\Debug\Interop.SCRIBBLELib.dll
+C:\Program Files (x86)\Image Viewer CP Pro ActiveX Control\Examples\VBdotNet2010\BarCodeReader\obj\Debug\AxInterop.SCRIBBLELib.dll
+C:\Program Files (x86)\Image Viewer CP Pro ActiveX Control\Examples\VBdotNet2010\BarCodeReader\obj\Debug\WindowsApplication1.vbproj.ResolveComReference.cache
