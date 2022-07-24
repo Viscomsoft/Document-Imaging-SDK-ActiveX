@@ -47,3 +47,19 @@ MS Access 2016 - Reading Barcodes from an Image and PDF http://www.viscomsoft.co
 MS Access 2016 - How to display PDF file http://www.viscomsoft.com/popular/imageviewercppro/125.html
 
 C# - Reduce PDF document size through C# http://www.viscomsoft.com/popular/imageviewercppro/89.html
+
+VB.NET - How to generate QR Code using VB.Net http://www.viscomsoft.com/popular/imageviewercppro/69.html
+
+VB.NET - How to Split Pages from PDF file using VB.Net http://www.viscomsoft.com/popular/imageviewercppro/68.html
+
+VB.NET - How to Delete Pages from PDF file http://www.viscomsoft.com/popular/imageviewercppro/67.html
+
+Delphi - Merging multiple TIFF files with Delphi http://www.viscomsoft.com/popular/imageviewercppro/66.html
+
+VB.NET - How to rotate multipage TIFF or PDF file in VB.Net http://www.viscomsoft.com/popular/imageviewercppro/46.html
+
+VB.NET - How to convert image to pdf format in VB.Net http://www.viscomsoft.com/popular/imageviewercppro/13.html
+
+VB.NET - How to resize image in VB.Net Sample http://www.viscomsoft.com/popular/imageviewercppro/12.html
+
+C# - How to create image viewer application in C# http://www.viscomsoft.com/popular/imageviewercppro/11.html
