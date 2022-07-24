@@ -31,7 +31,7 @@ Compatible with any programming language that supports ActiveX (Adobe Director, 
 
 Royalty free distribution of the OCX file.
 
-# How to Tutorial
+# How to Tutorials
 C# - How to Add display Multipage PDF features to WinForm application from NuGet Packages http://www.viscomsoft.com/popular/imageviewercppro/165.html
 
 MS Access 2016 - How to Export TIF page http://www.viscomsoft.com/popular/imageviewercppro/147.html
