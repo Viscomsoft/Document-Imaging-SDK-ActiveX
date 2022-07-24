@@ -30,3 +30,13 @@ need add-ons DICOM Module support display monochrome, grayscale, palletized and 
 Compatible with any programming language that supports ActiveX (Adobe Director, Access, Visual C++ , VB.Net, c#, Visual Basic , Visual Foxpro, Delphi, .Net, etc.)
 
 Royalty free distribution of the OCX file.
+
+# How to Tutorial
+C# - How to Add display Multipage PDF features to WinForm application from NuGet Packages http://www.viscomsoft.com/popular/imageviewercppro/165.html
+MS Access 2016 - How to Export TIF page http://www.viscomsoft.com/popular/imageviewercppro/147.html
+Delphi - Rotate a PDF http://www.viscomsoft.com/popular/imageviewercppro/140.html
+C# - How to use VS 2019 C# Merge pdf files and Create the Bookmarks http://www.viscomsoft.com/popular/imageviewercppro/139.html
+MS Access 2016 - How to read text (OCR) from an image and PDF file http://www.viscomsoft.com/popular/imageviewercppro/127.html
+MS Access 2016 - Reading Barcodes from an Image and PDF http://www.viscomsoft.com/popular/imageviewercppro/126.html
+MS Access 2016 - How to display PDF file http://www.viscomsoft.com/popular/imageviewercppro/125.html
+C# - Reduce PDF document size through C# http://www.viscomsoft.com/popular/imageviewercppro/89.html
